@@ -1,0 +1,19 @@
+{
+  "name": "practica3-ci-cd",
+  "version": "1.0.0",
+  "description": "Jensey Jimenez 2023-1800",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.6.0",
+    "vitest": "^1.6.0"
+  },
+  "type": "module"
+}
