@@ -25,9 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Subimos directamente la carpeta 'public' como sitio estático
-      - name: Upload artifact (public/)
-        uses: actions/upload-pages-artifact@v4
+      # Publicamos DIRECTO la carpeta 'public/' como sitio estático
+      - name: Upload static site (public/)
+        uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
